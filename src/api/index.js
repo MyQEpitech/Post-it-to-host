@@ -1,4 +1,4 @@
-const apiBaseUrl = 'http://62.72.5.95:1999/notes'
+const apiBaseUrl = 'https://post-it.epi-bluelock.bj/notes'
 
 const getNotes = () => {
   const response = fetch(apiBaseUrl)
